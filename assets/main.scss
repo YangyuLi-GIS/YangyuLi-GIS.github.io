@@ -404,7 +404,7 @@ table td {
 }
 /* Only highlight ePortforlio */
 .page-link[href="/eportfolio/"] {
-  color: red !important;
+  color: #8B0000 !important;
   font-weight: 700;
 
 }
@@ -419,13 +419,13 @@ table td {
 }
 .site-nav .page-link[href="/eportfolio/"] {
 
-  color: red !important;
+  color: #8B0000 !important;
 
 }
 
 .site-nav .page-link[href="/eportfolio/"].active {
 
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #8B0000;
 
 }
 
@@ -677,4 +677,91 @@ table td {
   color: #099;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*Contact page */
+.contact-page {
+
+  max-width: 700px;
+
+  margin: 0 auto;
+
+  text-align: center;
+
+  padding: 40px 20px;
+
+}
+
+.contact-page h1 {
+
+  font-size: 42px;
+
+  margin-bottom: 20px;
+
+}
+
+.contact-intro {
+
+  margin-bottom: 40px;
+
+  color: #666;
+
+}
+
+.contact-form {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 20px;
+
+}
+
+.contact-form input,
+
+.contact-form textarea {
+
+  padding: 15px;
+
+  font-size: 16px;
+
+  border: 1px solid #ddd;
+
+  border-radius: 8px;
+
+  font-family: inherit;
+
+}
+
+.contact-form input:focus,
+
+.contact-form textarea:focus {
+
+  outline: none;
+
+  border-color: #8B0000;
+
+}
+
+.contact-form button {
+
+  background: #8B0000;
+
+  color: white;
+
+  border: none;
+
+  padding: 15px;
+
+  border-radius: 8px;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+}
+
+.contact-form button:hover {
+
+  opacity: 0.9;
+
+}
