@@ -337,12 +337,12 @@ table td {
 
 .footer-col-1 {
   width: -webkit-calc(30% - (30px / 2));
-  width: calc(30% - 30px / 2);
+  width: calc(20% - 30px / 2);
 }
 
 .footer-col-2 {
   width: -webkit-calc(20% - (30px / 2));
-  width: calc(20% - 30px / 2);
+  width: calc(30% - 30px / 2);
 }
 
 .footer-col-3 {
@@ -368,6 +368,24 @@ table td {
     width: calc(100% - 30px / 2);
   }
 }
+.custom-footer {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  width: 100%;
+
+}
+
+.custom-footer .footer-col {
+
+  margin: 0;
+
+}
+
 /**
  * Page content
  */
