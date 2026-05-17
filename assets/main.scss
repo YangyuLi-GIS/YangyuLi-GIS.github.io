@@ -150,17 +150,17 @@ pre > code {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - 30px * 2);
+  max-width: -webkit-calc(1000px - (30px * 2));
+  max-width: calc(1000px - 30px * 2);
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .wrapper {
-    max-width: -webkit-calc(800px - (30px));
-    max-width: calc(800px - (30px));
+    max-width: -webkit-calc(1000px - (30px));
+    max-width: calc(1000px - (30px));
     padding-right: 15px;
     padding-left: 15px;
   }
@@ -309,7 +309,7 @@ table td {
  */
 .site-footer {
   border-top: 1px solid #e8e8e8;
-  padding: 30px 0;
+  padding: 5px 0;
 }
 
 .footer-heading {
@@ -331,7 +331,7 @@ table td {
 
 .footer-col {
   float: left;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   padding-left: 15px;
 }
 
@@ -350,7 +350,7 @@ table td {
   width: calc(50% - 30px / 2);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .footer-col-1,
   .footer-col-2 {
     width: -webkit-calc(50% - (30px / 2));
