@@ -2,7 +2,7 @@
 layout: page
 title: Cartographic Design and Geomedia
 image: /assets/images/lectures/cartographic-design-and-geomedia/cartographic-design.jpg
-excerpt: Designed an interactive online map to visualize the impact of California wildfires on national forests through cartographic storytelling and geospatial media.
+excerpt: Designed an interactive online map to visualize the impact of California wildfires on national forests.
 custom_class: lecture-detail
 permalink: /lectures/cartographic-design-and-geomedia/
 ---
