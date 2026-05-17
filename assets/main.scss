@@ -765,3 +765,166 @@ table td {
   opacity: 0.9;
 
 }
+
+/*ePortfolio layout*/
+.lecture-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 40px;
+
+  margin-top: 50px;
+
+}
+
+.lecture-card {
+
+  display: block;
+
+  text-decoration: none !important;
+
+  color: inherit;
+
+  background: white;
+
+  border-radius: 12px;
+
+  overflow: hidden;
+
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+
+  transition: transform 0.25s ease;
+
+}
+
+.lecture-card:hover .lecture-content h2 {
+
+  text-decoration: underline;
+
+}
+.lecture-content p {
+
+  text-decoration: none !important;
+
+}
+
+.lecture-card img {
+
+  width: 100%;
+
+  height: 260px;
+
+  object-fit: cover;
+
+  display: block;
+
+}
+
+.lecture-content {
+
+  padding: 20px;
+
+}
+
+.lecture-content h2 {
+
+  font-size: 24px;
+
+  margin: 0;
+
+  color: #8B0000;
+
+}
+/*ePortfolio page back button*/
+.back-button {
+
+  display: inline-block;
+
+  margin-bottom: 30px;
+
+  text-decoration: none;
+
+  color: #8B0000;
+
+  font-weight: 600;
+
+}
+
+.back-button:hover {
+
+  opacity: 0.7;
+
+}
+
+
+
+/*lecture details page layout*/
+.lecture-detail {
+
+  width: 100%;
+
+  margin: 0 auto;
+
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+
+}
+
+.lecture-detail .post-title {
+
+  font-size: 3.5rem;
+
+  font-weight: 700;
+
+  letter-spacing: -1px;
+
+  color: #111;
+
+}
+
+.lecture-detail h2 {
+
+  font-size: 2rem;
+
+  font-weight: 700;
+
+  color: #8B0000;
+
+  margin-top: 50px;
+
+}
+
+.lecture-detail p,
+
+.lecture-detail li {
+
+  font-size: 1.25rem;
+
+  line-height: 1.8;
+
+  color: #333;
+
+}
+
+/* 只控制 StoryMap */
+
+.lecture-detail iframe {
+
+  width: 1400px;
+
+  max-width: none;
+
+  height: 700px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  position: relative;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+
+}
