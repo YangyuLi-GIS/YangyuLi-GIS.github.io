@@ -14,9 +14,9 @@ title: ABOUT ME
 
     <h1>Hi, I'm Yangyu Li</h1>
 
-    <p>MSc student in Applied Geoinformatics</p>
+    <p>I am a <b>Master student</b> in Applied Geoinformatics at <b>Paris Lodron University of Salzburg</b>, currently also working as a <b>Spatial Analysis Intern</b> at the International Fund for Agricultural Development <b>(IFAD)</b>, a specialized agency of the United Nations <b>(UN)</b> in Rome, Italy.</p>
 
-    <p>Interested in GeoAI, Remote Sensing, Mapping, and  Automation of workflows.</p>
+    <p><b>Interested in</b> GeoAI, Remote Sensing, Classification, and  Automation of workflows.</p>
 
   </div>
 
