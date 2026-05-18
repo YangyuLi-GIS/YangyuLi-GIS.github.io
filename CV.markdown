@@ -189,4 +189,6 @@ Environmental sustainability, social equity, and interdisciplinary collaboration
 
 </p>
 
+<hr style="margin:50px 0; border-color:#ddd;">
+
 </div>
