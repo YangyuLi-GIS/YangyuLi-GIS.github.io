@@ -23,7 +23,25 @@ title: ABOUT ME
 
 </div>
 
-<div style="margin-top:40px; display:flex; gap:60px; align-items:center;">
+<div style="margin-top:40px; display:flex; gap:60px; align-items:center; flex-wrap:wrap;">
+
+  <!-- LinkedIn -->
+
+  <a href="https://www.linkedin.com/in/yangyu-li-107266319/" target="_blank"
+
+     style="display:flex; align-items:center; gap:10px; text-decoration:none; color:#0366d6; font-size:1.2rem; font-weight:500;">
+
+    <svg class="svg-icon">
+
+      <use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use>
+
+    </svg>
+
+    Yangyu Li
+
+  </a>
+  
+  <!-- GitHub -->
 
   <a href="https://github.com/YangyuLi-GIS" target="_blank"
 
@@ -38,6 +56,8 @@ title: ABOUT ME
     YangyuLi-GIS
 
   </a>
+
+  <!-- Instagram -->
 
   <a href="https://instagram.com/yangyu_li_" target="_blank"
 

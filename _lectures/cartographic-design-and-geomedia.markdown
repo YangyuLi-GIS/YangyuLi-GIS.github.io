@@ -27,4 +27,3 @@ Wildfires have been a threat for the National Forests in California in the past 
   allowfullscreen>
 
 </iframe>
-
