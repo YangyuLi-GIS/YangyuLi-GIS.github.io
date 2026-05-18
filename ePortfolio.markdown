@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ePortfolio
-page_heading: Lectures
+page_heading: Courses
 permalink: /eportfolio/
 ---
 <div class="lecture-grid">
