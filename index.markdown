@@ -27,7 +27,7 @@ title: ABOUT ME
 
   <!-- LinkedIn -->
 
-  <a href="https://www.linkedin.com/in/yangyu-li-gis/" target="_blank"
+  <a href="https://www.linkedin.com/in/yangyuli-gis" target="_blank"
 
      style="display:flex; align-items:center; gap:10px; text-decoration:none; color:#0366d6; font-size:1.2rem; font-weight:500;">
 
