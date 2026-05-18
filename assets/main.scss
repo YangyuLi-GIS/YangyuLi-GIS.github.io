@@ -946,3 +946,72 @@ table td {
   transform: translateX(-50%);
 
 }
+
+
+@media screen and (max-width: 768px) {
+
+  /* About 页面 */
+
+  .page-content div[style*="display:flex"] {
+
+    flex-direction: column !important;
+
+    align-items: flex-start !important;
+
+  }
+
+  img {
+
+    width: 160px !important;
+
+  }
+
+  h1 {
+
+    font-size: 2rem !important;
+
+  }
+
+  p, li {
+
+    font-size: 1rem !important;
+
+  }
+
+  /* Social media */
+
+  .svg-icon {
+
+    width: 20px !important;
+
+    height: 20px !important;
+
+  }
+
+  /* Lecture StoryMap */
+
+  .lecture-detail iframe {
+
+    width: 100% !important;
+
+    height: 500px !important;
+
+    left: 0 !important;
+
+    transform: none !important;
+
+  }
+
+  /* Footer */
+
+  .custom-footer {
+
+    flex-direction: column !important;
+
+    gap: 15px;
+
+    align-items: flex-start !important;
+
+  }
+
+}
