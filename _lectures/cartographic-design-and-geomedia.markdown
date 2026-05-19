@@ -22,3 +22,9 @@ Wildfires have been a threat for the National Forests in California in the past 
   src="https://arcg.is/1ePGTb"
   class="storymap-frame">
 </iframe>
+
+## Acknowledgement
+
+This project was completed in collaboration with colleagues Anna Pilar and Theresa Wein.  
+
+I would like to sincerely thank them for their teamwork, ideas, and contributions throughout the development of the StoryMap project.
