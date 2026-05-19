@@ -1,27 +1,43 @@
 ---
 layout: page
 title: ePortfolio
-page_heading: Courses
+page_heading: Projects in Courses
 permalink: /eportfolio/
 ---
-<div class="lecture-grid">
+{% assign semesters = site.lectures | map: "semester" | uniq %}
 
-{% for lecture in site.lectures %}
+{% for sem in semesters %}
 
-<a href="{{ lecture.url }}" class="lecture-card">
+<div class="semester-divider">
 
-  <img src="{{ lecture.image }}" alt="{{ lecture.title }}">
-
-  <div class="lecture-content">
-
-    <h2>{{ lecture.title }}</h2>
-
-    <p>{{ lecture.excerpt }}</p>
-
-  </div>
-
-</a>
-
-{% endfor %}
+  <span>{{ sem }}</span>
 
 </div>
+
+<div class="lecture-grid">
+
+  {% for lecture in site.lectures %}
+
+    {% if lecture.semester == sem %}
+
+      <a href="{{ lecture.url }}" class="lecture-card">
+
+        <img src="{{ lecture.image }}" alt="{{ lecture.title }}">
+
+        <div class="lecture-content">
+
+          <h2>{{ lecture.title }}</h2>
+
+          <p>{{ lecture.excerpt }}</p>
+
+        </div>
+
+      </a>
+
+    {% endif %}
+
+  {% endfor %}
+
+</div>
+
+{% endfor %}

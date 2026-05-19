@@ -1016,3 +1016,48 @@ table td {
   }
 
 }
+
+/* semester */
+.semester-divider {
+
+  display: flex;
+
+  align-items: center;
+
+  margin: 30px 0 30px;
+
+  color: #666;
+
+  font-size: 1rem;
+
+  font-weight: 600;
+
+  letter-spacing: 2px;
+
+  text-transform: uppercase;
+
+}
+
+.semester-divider::before,
+
+.semester-divider::after {
+
+  content: "";
+
+  flex: 1;
+
+  border-bottom: 1px solid #ccc;
+
+}
+
+.semester-divider::before {
+
+  margin-right: 20px;
+
+}
+
+.semester-divider::after {
+
+  margin-left: 20px;
+
+}

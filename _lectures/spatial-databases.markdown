@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Spatial Databases
+title: A Spatial Database Backend for a WebGIS Application Supporting a Traditional Youshen Procession Event in Fujian, China
 image: /assets/images/lectures/spatial-databases/coverPage.jpg
-excerpt: Designed a spatial database backend for a WebGIS application supporting a traditional Youshen procession event in Fujian, China.
+excerpt: Spatial Databases, A Spatial Database Backend, Postgres, Spatial Analysis, QGIS
 permalink: /lectures/spatial-databases/
 custom_class: lecture-detail
+semester: 2025/26WS
 ---
 ## Introduction
 

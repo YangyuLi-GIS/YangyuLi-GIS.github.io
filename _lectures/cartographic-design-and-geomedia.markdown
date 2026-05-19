@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Cartographic Design and Geomedia
+title: Visualization of the Impact of California Wildfires on National Forests
 image: /assets/images/lectures/cartographic-design-and-geomedia/cartographic-design.jpg
-excerpt: Designed an interactive online map to visualize the impact of California wildfires on national forests.
+excerpt: Cartographic Design & Geomedia Course, StoryMap, California Wildfire, National Forest
 custom_class: lecture-detail
 permalink: /lectures/cartographic-design-and-geomedia/
+semester: 2026SS
 ---
 ## Ideas
 Wildfires have been a threat for the National Forests in California in the past five years. They have a huge impact on nature, wildlife and humans in California. Big areas of na-tional forest burned down and may need restoration. That’s where the US Forest Service comes in and recreates the areas. That’s why we choose the US Forest Service Depart-ment as our target group. 
