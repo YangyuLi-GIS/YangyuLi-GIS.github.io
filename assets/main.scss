@@ -465,6 +465,18 @@ table td {
   }
 }
 
+.post-content img {
+
+  width: 100%;
+
+  height: auto;
+
+  object-fit: contain;
+
+  border-radius: 6px;
+
+}
+
 .post-content {
   margin-bottom: 30px;
 }
@@ -834,7 +846,7 @@ table td {
 
   height: 260px;
 
-  object-fit: cover;
+  object-fit: auto;
 
   display: block;
 
@@ -1059,5 +1071,21 @@ table td {
 .semester-divider::after {
 
   margin-left: 20px;
+
+}
+
+.post-keywords {
+
+  margin-top: 18px;
+
+  font-size: 1rem;
+
+  color: #777;
+
+  letter-spacing: 0.5px;
+
+  line-height: 1.6;
+
+  font-style: italic;
 
 }
