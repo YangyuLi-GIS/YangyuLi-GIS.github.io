@@ -2,7 +2,7 @@
 layout: page
 title: A Thematic Tourism Map of Two Self-drive Travel Itineraries across Sicily
 image: /assets/images/lectures/geovisualization-and-geocommunication/coverPage2.png
-excerpt: Tourism Cartography,Thematic Mapping, Route Visualization, Travel Guide Design, Sicily Self-Drive Itineraries, ArcGIS Pro
+excerpt: Tourism Cartography, Thematic Mapping, Route Visualization, Travel Guide Design, Sicily Self-Drive Itineraries, ArcGIS Pro
 permalink: /lectures/geovisualization-und-geokommunikation-2/
 custom_class: lecture-detail
 semester: 2025/26WS
