@@ -800,6 +800,7 @@ table td {
 }
 
 .lecture-card {
+  position: relative;
 
   display: block;
 
@@ -843,8 +844,11 @@ table td {
 }
 
 .lecture-content {
+  padding: 24px;
 
-  padding: 20px;
+  padding-bottom: 70px;
+
+  // padding: 20px;
 
 }
 
@@ -1097,6 +1101,24 @@ table td {
   line-height: 1.6;
 
   font-style: italic;
+
+}
+
+.lecture-course {
+
+  position: absolute;
+
+  left: 24px;
+
+  bottom: 24px;
+
+  font-size: 0.82rem;
+
+  color: #888;
+
+  font-weight: 500;
+
+  letter-spacing: 0.3px;
 
 }
 

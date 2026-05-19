@@ -30,6 +30,12 @@ permalink: /eportfolio/
 
           <p>{{ lecture.excerpt }}</p>
 
+          <div class="lecture-course">
+
+            {{ lecture.course }}
+
+          </div>
+
         </div>
 
       </a>
