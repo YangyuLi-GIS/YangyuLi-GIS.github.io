@@ -929,13 +929,33 @@ table td {
 
 /* 只控制 StoryMap */
 
-.lecture-detail iframe {
+/* StoryMap */
+
+.storymap-frame {
 
   width: 1400px;
 
-  max-width: none;
+  height: 800px;
 
-  height: 700px;
+  border: none;
+
+  border-radius: 12px;
+
+  position: relative;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+
+}
+
+/* Tableau Dashboard */
+
+.tableau-frame {
+
+  width: 1650px;
+
+  height: 1200px;
 
   border: none;
 
@@ -1079,3 +1099,5 @@ table td {
   font-style: italic;
 
 }
+
+
