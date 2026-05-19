@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Dashboard of Global Natural Disaster Patterns, Impacts, and Economic Losses using EM-DAT Data and Tableau
+title: Dashboard for Global Natural Disaster Patterns, Impacts, and Economic Losses
 image: /assets/images/lectures/geovisualization-and-geocommunication/coverPage1.png
 excerpt: Global Natural Disaster, EM-DAT Data, Statistics, Tableau
 permalink: /lectures/geovisualization-und-geokommunikation-1/
