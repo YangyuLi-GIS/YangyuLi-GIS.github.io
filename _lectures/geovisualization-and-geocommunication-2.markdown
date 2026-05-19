@@ -6,6 +6,7 @@ excerpt: Tourism Cartography,Thematic Mapping, Route Visualization, Travel Guide
 permalink: /lectures/geovisualization-und-geokommunikation-2/
 custom_class: lecture-detail
 semester: 2025/26WS
+semester_order: 1
 course: Geovisualization und Geocommunication course
 ---
 ## Introduction

@@ -6,6 +6,7 @@ excerpt: Global Natural Disaster, EM-DAT Data, Statistics, Tableau
 permalink: /lectures/geovisualization-und-geokommunikation-1/
 custom_class: lecture-detail
 semester: 2025/26WS
+semester_order: 1
 course: Geovisualization und Geocommunication course
 ---
 ## Introduction

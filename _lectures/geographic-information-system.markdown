@@ -6,6 +6,7 @@ excerpt: Protected Area Analysis, Buffer Analysis, Land Use Mapping, Cartographi
 permalink: /lectures/hintersee-protected-area/
 custom_class: lecture-detail
 semester: 2025/26WS
+semester_order: 1
 course: Geographic Information Systems course
 ---
 ## Introduction

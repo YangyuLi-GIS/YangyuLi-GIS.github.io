@@ -4,7 +4,9 @@ title: ePortfolio
 page_heading: Projects in Courses
 permalink: /eportfolio/
 ---
-{% assign semesters = site.lectures | map: "semester" | uniq %}
+
+{% assign lectures_sorted = site.lectures | sort: "semester_order" | reverse %}
+{% assign semesters = lectures_sorted | map: "semester" | uniq %}
 
 {% for sem in semesters %}
 
@@ -16,33 +18,31 @@ permalink: /eportfolio/
 
 <div class="lecture-grid">
 
-  {% for lecture in site.lectures %}
+{% for lecture in lectures_sorted %}
 
-    {% if lecture.semester == sem %}
+  {% if lecture.semester == sem %}
 
-      <a href="{{ lecture.url }}" class="lecture-card">
+    <a href="{{ lecture.url }}" class="lecture-card">
 
-        <img src="{{ lecture.image }}" alt="{{ lecture.title }}">
+      <img src="{{ lecture.image }}" alt="{{ lecture.title }}">
 
-        <div class="lecture-content">
+      <div class="lecture-content">
 
-          <h2>{{ lecture.title }}</h2>
+        <h2>{{ lecture.title }}</h2>
 
-          <p>{{ lecture.excerpt }}</p>
+        <p>{{ lecture.excerpt }}</p>
 
-          <div class="lecture-course">
-
-            {{ lecture.course }}
-
-          </div>
-
+        <div class="lecture-course">
+          {{ lecture.course }}
         </div>
 
-      </a>
+      </div>
 
-    {% endif %}
+    </a>
 
-  {% endfor %}
+  {% endif %}
+
+{% endfor %}
 
 </div>
 

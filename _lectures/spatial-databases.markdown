@@ -6,6 +6,7 @@ excerpt: A Spatial Database Backend, Postgres, Spatial Analysis, QGIS
 permalink: /lectures/spatial-databases/
 custom_class: lecture-detail
 semester: 2025/26WS
+semester_order: 1
 course: Spatial Databases course
 ---
 ## Introduction
